@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>MY COFFEE</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="google-site-verification" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!-- favicon -->
+    <link rel="icon" href="images/fav/bean.png" type="image/png" sizes="16x16">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
+    <link rel="manifest" href="images/fav/site.webmanifest">
+    <link rel="shortcut icon" href="images/fav/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="images/fav/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--Plugins-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link href="plugins/animatecss/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!--Custom Css-->
+    <link href="styles/css/style-ka.css" rel="stylesheet">
+
+</head>
+<body class="site">
+<div class="burger-bg"></div>
+<header class="site__header">
+    <div class="header">
+        <div class="sup-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <h1 class="logo d-flex flex-column">
+                            <span class="text d-none">my coffee</span>
+                            <a href="#">
+                                <img src="images/logo.svg" class="img-fluid" alt="">
+                            </a>
+                        </h1>
+                    </div>
+                    <div class="col-md-5 search">
+                        <form class="d-flex top-search">
+                            <input type="text" name="" class="search-input" placeholder="საძიებო ტექსტი">
+                            <a href="#!" class="submit"></a>
+                        </form>
+                    </div>
+                    <div class="header-right col-lg-4 col-md-8 col-6 d-flex justify-content-end">
+                        <div class="lang top-language">
+                            <ul class="language-bar">
+                                <li class="active">EN <i class="fa fa-caret-down"></i></li>
+                                <li><a href="">EN</a></li>
+                                <li><a href="">KA</a></li>
+                                <li><a href="">RU</a></li>
+                            </ul>
+                        </div>
+                        <a href="#!" class="user">
+                            <img src="images/avatar.svg" alt="">
+                            <img src="images/avatar-dark.svg" alt="" class="dark-user">
+                        </a>
+                        <a href="#!" class="card-block" data-toggle="modal" data-target="#card-modal">
+                            <img src="images/bag.svg" alt="">
+                            <span class="sum">0 <span class="gel"> ₾ </span> </span>
+                            <div class="notification">
+                                <span>1</span>
+                            </div>
+                        </a>
+                        <div class="modal fade" id="card-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h6 class="modal-title" id="exampleModalLabel">ჩემი კალათა</h6>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <i class="fas fa-times"></i>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="order-desc d-flex justify-content-between">
+                                            <div class="d-flex">
+                                                <div class="order-photo">
+                                                    <img src="uploads/images/order@2x.png" alt="">
+                                                </div>
+                                                <div class="order-text">
+                                                    <span class="name-en">TCHIBO</span>
+                                                    <span class="name">კლასიკური ესპრესო</span>
+                                                    <span class="price">ფასი: 90₾</span>
+                                                </div>
+                                            </div>
+                                            <div class="qty-block d-flex align-items-center">
+                                                <div class="quantity order-qty">
+                                                    <span class="min min-modal">-</span>
+                                                    <span class="qty"><input type="text" min="1" value="1"></span>
+                                                    <span class='plus plus-modal'>+</span>
+                                                </div>
+                                                <span class="price-order">90 <span>₾</span></span>
+                                                <span class="delete"><i class="fas fa-times"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="order-desc d-flex justify-content-between">
+                                            <div class="d-flex">
+                                                <div class="order-photo">
+                                                    <img src="uploads/images/order@2x.png" alt="">
+                                                </div>
+                                                <div class="order-text">
+                                                    <span class="name-en">TCHIBO</span>
+                                                    <span class="name">კლასიკური ესპრესო</span>
+                                                    <span class="price">ფასი: 90₾</span>
+                                                </div>
+                                            </div>
+                                            <div class="qty-block d-flex align-items-center">
+                                                <div class="quantity order-qty">
+                                                    <span class="min min-modal">-</span>
+                                                    <span class="qty"><input type="text" min="1" value="1"></span>
+                                                    <span class='plus plus-modal'>+</span>
+                                                </div>
+                                                <span class="price-order">90 <span>₾</span></span>
+                                                <span class="delete"><i class="fas fa-times"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-btn d-flex align-items-center justify-content-between">
+                                            <button class="empty">კალათის გასუფთავება</button>
+                                            <div class="d-flex align-items-center">
+                                                <div class="full-price">სრული ღირებულება: <span> 380 <span>₾</span></span></div>
+                                                <a href="#!" class="buy">ყიდვა</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-hdr">
+                <div class="container">
+                    <div class="d-flex justify-content-between">
+                        <div class="lang">
+                            <ul class="language-bar">
+                                <li class="active">EN <i class="fa fa-caret-down"></i></li>
+                                <li><a href="">EN</a></li>
+                                <li><a href="">KA</a></li>
+                                <li><a href="">RU</a></li>
+                            </ul>
+                        </div>
+                        <div class="d-flex">
+                            <div class="d-flex justify-content-end search-resp">
+                                <a href="#!" class="submit search-bg"></a>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <div class="burger-btn">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="burger-nav">
+                <img src="images/cancel.svg" alt="" class="close-btn">
+                <div class="call d-flex">
+                    <div class="d-flex justify-content-end burger-social">
+                        <a href="#!" class="soc-item"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#!" class="soc-item"><i class="fab fa-twitter"></i></a>
+                        <a href="#!" class="soc-item"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="burger-content d-flex flex-column">
+                    <a href="#!" class="nav-menu">მთავარი</a>
+                    <a href="#!" class="nav-menu">კომპანიის შესახებ</a>
+                    <a href="#!" class="nav-menu">პროდუქცია</a>
+                    <a href="#!" class="nav-menu">სიახლეები</a>
+                    <a href="#!" class="nav-menu">კონტაქტი</a>
+                </div>
+            </div>
+            <div class="search-nav">
+                <img src="images/cancel.svg" alt="" class="close-btn">
+                <form action="" class="col-12 search-form" id="search-form" method="post">
+                    <input type="text" placeholder="საძიებო ტექსტი" id="search-input">
+                    <a id="btn_search" class="enter-click">და დააჭირეთ <img src="images/enter.png" alt=""> Enter</a>
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <div class="sub-header row">
+                <div class="col-md-8">
+                    <div class="menu">
+                        <a href="#!" class="menu-link">მთავარი</a>
+                        <a href="#!" class="menu-link">კომპანიის შესახებ</a>
+                        <a href="#!" class="menu-link">პროდუქცია</a>
+                        <a href="#!" class="menu-link">სიახლეები</a>
+                        <a href="#!" class="menu-link">კონტაქტი</a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-right">
+                    <i class="fas fa-phone"></i>
+                    <a href="+995 596 888 222" class="number">+995 596 888 222</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <main class="site__content content-bg">
+        <div class="content">
+           <div class="top-section d-flex align-items-center">
+               <div class="container">
+                   <h4 class="top-section-title">სიახლეები</h4>
+                   <div class="top-section-menu d-flex align-items-center">
+                       <a href="#!" class="top-section-link">მთავარი</a>
+                       <i class="fa fa-chevron-right"></i>
+                       <span class="top-section-link">სიახლეები</span>
+                   </div>
+               </div>
+           </div>
+            <div class="news-block">
+                <div class="container">
+                    <div class="row">
+                        <a href="#!" class="col-md-6 news-item">
+                            <div class="d-flex">
+                                <div class="date d-flex flex-column align-items-center">
+                                    <span class="num">12</span>
+                                    <span class="month">იან</span>
+                                    <span class="year">2018</span>
+                                </div>
+                                <div class="news-descr">
+                                    <span class="news-item-title">ჩვენს პროდუქციას დაემატა იტალიური
+                                        ბრენდის ყავა</span>
+                                    <p class="news-item-text">
+                                        საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
+                                        იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა
+                                        მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                        მისი ტექსტი არამარტო 5 საუკუნის როდესაც უცნობმა
+                                        მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                        მისი ტექსტი არამარტო 5 საუკუნის
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#!" class="col-md-6 news-item">
+                            <div class="d-flex">
+                                <div class="date d-flex flex-column align-items-center">
+                                    <span class="num">12</span>
+                                    <span class="month">იან</span>
+                                    <span class="year">2018</span>
+                                </div>
+                                <div class="news-descr">
+                                    <span class="news-item-title">ჩვენს პროდუქციას დაემატა იტალიური
+                                        ბრენდის ყავა</span>
+                                    <p class="news-item-text">
+                                        საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
+                                        იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა
+                                        მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                        მისი ტექსტი არამარტო 5 საუკუნის როდესაც უცნობმა
+                                        მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                        მისი ტექსტი არამარტო 5 საუკუნის
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#!" class="col-md-6 news-item">
+                            <div class="d-flex">
+                                <div class="date d-flex flex-column align-items-center">
+                                    <span class="num">12</span>
+                                    <span class="month">იან</span>
+                                    <span class="year">2018</span>
+                                </div>
+                                <div class="news-descr">
+                                    <span class="news-item-title">ჩვენს პროდუქციას დაემატა იტალიური
+                                        ბრენდის ყავა</span>
+                                    <p class="news-item-text">
+                                        საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
+                                        იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა
+                                        მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                        მისი ტექსტი არამარტო 5 საუკუნის როდესაც უცნობმა
+                                        მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                        მისი ტექსტი არამარტო 5 საუკუნის
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#!" class="col-md-6 news-item">
+                            <div class="d-flex">
+                                <div class="date d-flex flex-column align-items-center">
+                                    <span class="num">12</span>
+                                    <span class="month">იან</span>
+                                    <span class="year">2018</span>
+                                </div>
+                                <div class="news-descr">
+                                    <span class="news-item-title">ჩვენს პროდუქციას დაემატა იტალიური
+                                        ბრენდის ყავა</span>
+                                    <p class="news-item-text">
+                                        საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
+                                        იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა
+                                        მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                        მისი ტექსტი არამარტო 5 საუკუნის როდესაც უცნობმა
+                                        მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                        მისი ტექსტი არამარტო 5 საუკუნის
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="second-news">
+                        <div class="row">
+                            <a href="#!" class="col-md-6 news-item">
+                                <div class="d-flex">
+                                    <div class="date d-flex flex-column align-items-center">
+                                        <span class="num">12</span>
+                                        <span class="month">იან</span>
+                                        <span class="year">2018</span>
+                                    </div>
+                                    <div class="news-descr">
+                                        <span class="news-item-title">ჩვენს პროდუქციას დაემატა იტალიური
+                                            ბრენდის ყავა</span>
+                                        <p class="news-item-text">
+                                            საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
+                                            იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა
+                                            მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                            მისი ტექსტი არამარტო 5 საუკუნის როდესაც უცნობმა
+                                            მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                            მისი ტექსტი არამარტო 5 საუკუნის
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#!" class="col-md-6 news-item">
+                                <div class="d-flex">
+                                    <div class="date d-flex flex-column align-items-center">
+                                        <span class="num">12</span>
+                                        <span class="month">იან</span>
+                                        <span class="year">2018</span>
+                                    </div>
+                                    <div class="news-descr">
+                                        <span class="news-item-title">ჩვენს პროდუქციას დაემატა იტალიური
+                                            ბრენდის ყავა</span>
+                                        <p class="news-item-text">
+                                            საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
+                                            იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა
+                                            მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                            მისი ტექსტი არამარტო 5 საუკუნის როდესაც უცნობმა
+                                            მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                            მისი ტექსტი არამარტო 5 საუკუნის
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#!" class="col-md-6 news-item">
+                                <div class="d-flex">
+                                    <div class="date d-flex flex-column align-items-center">
+                                        <span class="num">12</span>
+                                        <span class="month">იან</span>
+                                        <span class="year">2018</span>
+                                    </div>
+                                    <div class="news-descr">
+                                        <span class="news-item-title">ჩვენს პროდუქციას დაემატა იტალიური
+                                            ბრენდის ყავა</span>
+                                        <p class="news-item-text">
+                                            საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
+                                            იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა
+                                            მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                            მისი ტექსტი არამარტო 5 საუკუნის როდესაც უცნობმა
+                                            მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                            მისი ტექსტი არამარტო 5 საუკუნის
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#!" class="col-md-6 news-item">
+                                <div class="d-flex">
+                                    <div class="date d-flex flex-column align-items-center">
+                                        <span class="num">12</span>
+                                        <span class="month">იან</span>
+                                        <span class="year">2018</span>
+                                    </div>
+                                    <div class="news-descr">
+                                        <span class="news-item-title">ჩვენს პროდუქციას დაემატა იტალიური
+                                            ბრენდის ყავა</span>
+                                        <p class="news-item-text">
+                                            საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
+                                            იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა
+                                            მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                            მისი ტექსტი არამარტო 5 საუკუნის როდესაც უცნობმა
+                                            მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                            მისი ტექსტი არამარტო 5 საუკუნის
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="more d-flex justify-content-center">
+                        <a href="#!" class="loadmore"><span>იხილეთ მეტი</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site__footer content-bg">
+        <div class="footer">
+            <div class="sup-footer">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="footer-menu col-md-7 d-flex justify-content-between">
+                            <a href="#!" class="menu-link">მთავარი</a>
+                            <a href="#!" class="menu-link">კომპანიის შესახებ</a>
+                            <a href="#!" class="menu-link">პროდუქცია</a>
+                            <a href="#!" class="menu-link">სიახლეები</a>
+                            <a href="#!" class="menu-link">კონტაქტი</a>
+                        </div>
+                        <div class="footer-social col-md-5 d-flex justify-content-end">
+                            <a href="#!" class="soc-item"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#!" class="soc-item"><i class="fab fa-twitter"></i></a>
+                            <a href="#!" class="soc-item"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 about-info">
+                            <h6 class="about">ჩვენ შესახებ</h6>
+                            <p>ჩვენი კომპანია გთავაზობთ ყავისა და ჩაის უმაღლესი ხარისხის პროდუქციას,
+                                სადაც ხარისხი უპირატესია. ჩვენი კომპანია გთავაზობთ ყავისა და ჩაის
+                                უმაღლესი ხარისხის პროდუქციას, სადაც ხარისხი უპირატესია</p>
+                        </div>
+                        <div class="col-lg-8 mid-footer-contact d-flex justify-content-end">
+                            <div class="d-flex contact-items">
+                                <div class="contact-item d-flex align-items-center">
+                                    <div class="soc-item"><i class="fas fa-phone"></i></div>
+                                    <span class="contact">+995 596 888 222</span>
+                                </div>
+                                <div class="contact-item d-flex align-items-center">
+                                    <div class="soc-item"><i class="fas fa-envelope"></i></div>
+                                    <a href="info@mycoffee.ge" class="contact">info@mycoffee.ge</a>
+                                </div>
+                                <div class="contact-item d-flex align-items-center">
+                                    <div class="soc-item"><i class="fas fa-map-marker-alt"></i></div>
+                                    <span class="contact">გიორგი სააკაძის დაღმართი<br>#8, თბილისი, საქართველო</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-footer">
+                <div class="container">
+                    <div class="d-flex justify-content-between sub-footer-block">
+                        <p>© MYCOFFEE.GE  2018.  ყველა უფლება დაცულია</p>
+                        <a href="http://mobility.ge/" target="_blank"><img src="images/mobility.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <img src="images/footer-bg.png" class="footer-bg" alt="">
+        </div>
+    </footer>
+
+    <!--Plugins-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <!--Custom Scripts-->
+    <script src="minJs/default.min.js"></script>
+
+    <!--news Scripts-->
+    <script src="minJs/news.min.js"></script>
+</body>
+</html>

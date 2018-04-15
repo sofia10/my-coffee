@@ -1,0 +1,15 @@
+@import "../commons/default";
+@import "../fonts/scss/fonts-en";
+body, html {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  background: $body-color;
+  color: $text;
+}
+
+#content-wrapper{
+  header{}
+  main{}
+  footer{}
+}

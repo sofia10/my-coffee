@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-1501 9560.37 46.204 48.456">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.27;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #46382e;
+      }
+
+      .cls-3 {
+        fill: #d6c8be;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.907" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#373737"/>
+      <stop offset="1" stop-color="#797979" stop-opacity="0.059"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_905" data-name="Group 905" transform="translate(-2233 9010)">
+    <path id="Union_15" data-name="Union 15" class="cls-1" d="M13.787,32.648H4.351a4,4,0,0,1-4-4V4a4,4,0,0,1,4-4h26.2a4,4,0,0,1,4,4V28.648a4,4,0,0,1-4,4H21.4L17.6,36.456Z" transform="translate(737.65 556.37)"/>
+    <path id="Union_14" data-name="Union 14" class="cls-2" d="M13.787,32.648H4.351a4,4,0,0,1-4-4V4a4,4,0,0,1,4-4h26.2a4,4,0,0,1,4,4V28.648a4,4,0,0,1-4,4H21.4L17.6,36.456Z" transform="translate(737.65 555.498)"/>
+    <g id="Group_903" data-name="Group 903" transform="matrix(0.899, -0.438, 0.438, 0.899, 744.639, 567.004)">
+      <path id="Path_10692" data-name="Path 10692" class="cls-3" d="M6.047,0C4.859.827,3.36,2.791,3.153,7.495A15.294,15.294,0,0,1,0,16.747c.207,0,.414.052.62.052,3.2,0,6.461-2.533,7.908-6.357C10.027,6.254,8.942,1.912,6.047,0Z" transform="translate(5.172 0.593)"/>
+      <path id="Path_10693" data-name="Path 10693" class="cls-3" d="M9.12,0H8.6C5.4,0,2.142,2.481.7,6.358-.855,10.544.282,14.886,3.176,16.8c1.6-1.654,3.05-4.238,3.2-8.425C6.639,4.032,7.776,1.5,9.12,0Z" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>
